@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-await connectDB;
+await connectDB();
 
 const PORT = 8080;
 
