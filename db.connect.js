@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 
-const dbName = "";
-const dbUserName = "";
-const dbPassword = "";
-const dbOptions = "";
-const dbHosts = "";
+const dbName = "movie-management";
+const dbUserName = "nishrit";
+const dbPassword = encodeURIComponent("Nishrit5");
+const dbOptions = "retryWrites=true&w=majority&appName=School";
+const dbHosts = "school.t7rsx.mongodb.net";
 
 export const connectDB = async () => {
   try {
